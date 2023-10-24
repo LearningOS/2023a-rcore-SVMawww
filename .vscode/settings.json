@@ -11,6 +11,11 @@
         "./os/os/Cargo.toml",
         "./os/os/Cargo.toml"
     ],
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.check.extraArgs": [
+        "--target",
+        "riscv64gc"
+    ]
     // "rust-analyzer.cargo.features": [
     //     "board_qemu"
     // ]
